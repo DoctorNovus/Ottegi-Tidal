@@ -1,7 +1,7 @@
 export default [{
     input: 'src/index.js',
     output: {
-        file: "server.js",
+        file: "dist/server.js",
         format: 'cjs',
     }
 }]
