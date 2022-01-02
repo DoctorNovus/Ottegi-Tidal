@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "m-dev": "exalt dev",
+    "build": "exalt build",
+    "start": "",
+    "m-start": "exalt start"
+  },
+  "dependencies": {
+    "@exalt/core": "^1.1.4",
+    "@exalt/router": "^1.1.0"
+  },
+  "devDependencies": {
+    "@exalt/cli": "^1.0.2",
+    "@exalt/toolchain": "^1.0.4"
+  },
+  "description": "This project was bootstrapped using the [Exalt CLI](https://www.npmjs.com/package/@exalt/cli)",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}

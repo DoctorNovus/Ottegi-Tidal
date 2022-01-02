@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --transparency: 1;
+    --chat-details: rgba(50, 50, 50, var(--transparency));
+    --chat-display: rgba(55, 55, 55, var(--transparency));
+    --chat-info: rgba(50, 50, 50, var(--transparency));
+    --chat-info-secondary: rgba(30, 30, 30, var(--transparency));
+    --chat-input: rgba(58, 58, 58, var(--transparency));
+    --chat-list: rgba(45, 45, 45, var(--transparency));
+    --chat-icon: rgba(30, 30, 30, var(--transparency));
+    --chat-banner: rgba(30, 30, 30, var(--transparency));
+    --chat-server-form: rgba(20, 20, 20, 0.5);
+    --chat-dm: rgba(50, 50, 50, var(--transparency));
+    --chat-overlay: rgba(0, 0, 0, 0.4);
+    --color-skyblue: rgb(50, 174, 196);
+    --cm-bg-color: rgba(25, 25, 25, 0.5);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}

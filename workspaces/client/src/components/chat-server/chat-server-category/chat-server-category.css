@@ -1,0 +1,35 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.icon {
+    width: .75vw;
+    height: .75vw;
+    margin-right: 0.75vw;
+    margin-left: 0.5vw;
+}
+
+.icon {
+    filter: invert(100%);
+}
+
+.name {
+    height: 1.5vw;
+}
+
+.channels {
+    display: none;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+}
+
+.channels[active] {
+    display: block;
+}

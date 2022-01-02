@@ -1,0 +1,38 @@
+.inputMech {
+    position: absolute;
+    left: 25vw;
+    width: 60vw;
+    background-color: var(--chat-input);
+    min-height: 6vh;
+    bottom: 0;
+}
+
+.inputMech textarea {
+    background-color: transparent;
+    border-color: vaR(--color-skyblue);
+    color: white;
+    min-width: 58.75vw;
+    max-width: 58.75vw;
+    height: 6vh;
+    padding-left: 1vw;
+    font-size: 14px;
+    resize: none;
+}
+
+::-webkit-input-placeholder {
+    align-items: center;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    align-items: center;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    align-items: center;
+}
+
+:-ms-input-placeholder {
+    align-items: center;
+}

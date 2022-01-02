@@ -1,0 +1,65 @@
+.wrapper {
+    display: none;
+}
+
+.wrapper[active] {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    padding-top: 5vh;
+    padding-left: 2.5vw;
+}
+
+.title {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+button {
+    width: 15vw;
+    height: 3vh;
+    background-color: rgba(75, 103, 194, 0.2);
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.category {
+    width: 20vw;
+    background-color: rgba(75, 103, 194, 0.2);
+    margin: 1vw;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.category input {
+    color: white;
+    width: 20vw;
+    border: 0px solid transparent;
+    background-color: transparent;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.category ul {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    list-style-type: none;
+    padding: 0;
+}
+
+.category li {
+    border-radius: 25px;
+    margin-bottom: 0.5vh;
+    background-color: rgba(89, 151, 202, 0.475);
+    height: 2.25vh;
+    text-align: center;
+}
+
+.category button {
+    background-color: transparent;
+    width: 20vw;
+}

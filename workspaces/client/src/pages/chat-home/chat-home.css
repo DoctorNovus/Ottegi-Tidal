@@ -1,0 +1,23 @@
+.home,
+.container {
+    display: none;
+}
+
+.home[active],
+.container[active] {
+    display: flex;
+}
+
+.home::before,
+.container::before {
+    background: url(https://i.imgur.com/QhXG1mw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    content: '';
+    display: block;
+    inset: 0;
+    top: 0;
+}

@@ -1,0 +1,51 @@
+.display {
+    position: absolute;
+    left: 25vw;
+    width: 60vw;
+    background-color: var(--chat-display);
+    height: 92.5vh;
+    top: 0px;
+    overflow-y: scroll;
+}
+
+.header {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    height: 4.5vw;
+    font-size: 2vw;
+    align-content: center;
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding-left: 1.5vw;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50%;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    max-height: 20px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

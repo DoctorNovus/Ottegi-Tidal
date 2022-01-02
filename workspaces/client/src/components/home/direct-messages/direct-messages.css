@@ -1,0 +1,35 @@
+.wrapper {
+    min-height: 100vh;
+    background-color: var(--chat-dm);
+    position: absolute;
+    left: 7.5vw;
+    width: 17.5vw;
+    max-width: 17.5vw;
+    top: 0px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    width: 17.5vw;
+    height: 5vh;
+    margin-left: 1.25vw;
+    margin-top: 1.5vh;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 3vw;
+    height: 3vw;
+    margin-right: 1vw;
+    filter: invert(100%);
+}

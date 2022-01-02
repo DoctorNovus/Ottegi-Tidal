@@ -1,0 +1,18 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "rollup": "^2.61.0"
+  },
+  "scripts": {
+    "start": "",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": "./dist/bundle.js"
+  }
+}

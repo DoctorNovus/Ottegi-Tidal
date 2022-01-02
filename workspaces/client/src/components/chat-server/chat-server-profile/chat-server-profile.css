@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+img,
+.icon-text {
+    width: 5vw;
+    height: 5vw;
+    background-color: var(--chat-icon);
+    border-color: silver;
+    border-radius: 50%;
+    line-height: 5vw;
+    text-align: center;
+    font-size: 6vh;
+    align-self: center;
+    justify-self: center;
+}

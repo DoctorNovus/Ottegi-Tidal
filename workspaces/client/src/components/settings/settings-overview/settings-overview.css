@@ -1,0 +1,77 @@
+.wrapper {
+    display: none;
+    flex-direction: column;
+    width: 60vw;
+    padding-top: 5vh;
+    padding-left: 2.5vw;
+}
+
+.wrapper[active] {
+    display: flex;
+}
+
+.title {
+    font-size: 3vw;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.icon {
+    margin-top: 1vw;
+    margin-right: 1.5vw;
+}
+
+.icon, .icon img {
+    width: 5vw;
+    height: 5vw;
+    border: 1px solid silver;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.name-edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.system-messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.sys-config {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    height: 5vh;
+    width: 100%;
+}
+
+* {
+    width: 100%;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+}
+
+input, input::placeholder {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}

@@ -1,0 +1,22 @@
+.home-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    width: 75vw;
+    height: 92.5vh;
+}
+
+.home-nav h1 {
+    font-size: 3.5vw;
+}
+
+.home-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.home-nav li {
+    font-size: 2.5vw;
+    list-style-type: none;
+}

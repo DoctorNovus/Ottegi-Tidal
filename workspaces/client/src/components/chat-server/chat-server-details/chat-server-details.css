@@ -1,0 +1,8 @@
+.details {
+    min-height: 100vh;
+    background-color: var(--chat-details);
+    position: absolute;
+    left: 85vw;
+    width: 15vw;
+    top: 0px;
+}

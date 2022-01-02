@@ -1,0 +1,38 @@
+.wrapper {
+    position: absolute;
+    left: 25vw;
+    width: 75vw;
+    background-color: var(--chat-display);
+    height: 100vh;
+    top: 0px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75vw;
+    height: 7.5vh;
+    background-color: var(--chat-banner);
+}
+
+.banner img {
+    width: 3vw;
+    height: 3vw;
+    margin-left: 0.75vw;
+    margin-right: 1vw;
+    filter: invert(100%);
+}
+
+.body {
+    width: 75vw;
+    height: 92.5vh;
+}
+
+.body * {
+    display: none;
+}
+
+.body *[active] {
+    display: flex;
+}

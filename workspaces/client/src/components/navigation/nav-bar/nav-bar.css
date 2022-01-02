@@ -1,0 +1,326 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgb(25, 25, 25);
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.title {
+    width: 50vw;
+}
+
+.ottegi {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+    width: 50vw;
+    padding-right: 2vw;
+}
+
+.ottegi-text {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.primary {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.secondary {
+    display: none;
+    text-transform: uppercase;
+}
+
+.ottegi:hover .primary {
+    display: none;
+}
+
+.ottegi:hover .secondary {
+    display: flex;
+}
+
+.ottegi-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.ottegi-title .blank {
+    display: none;
+}
+
+.ottegi:hover .blank {
+    display: flex;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.ottegi:hover .p1 {
+    animation-direction: normal;
+    animation: move1 2s linear forwards;
+}
+
+.ottegi:hover .p2 {
+    animation-direction: normal;
+    animation: move2 2s linear forwards;
+}
+
+.ottegi:hover .p3 {
+    animation-direction: normal;
+    animation: move3 2s linear forwards;
+}
+
+.ottegi:hover .p4 {
+    animation-direction: normal;
+    animation: move4 2s linear forwards;
+}
+
+.ottegi:hover .p5 {
+    animation-direction: normal;
+    animation: move5 2s linear forwards;
+}
+
+.ottegi:hover .p6 {
+    animation-direction: normal;
+    animation: move6 2s linear forwards;
+}
+
+.ottegi:hover .p7 {
+    animation-direction: normal;
+    animation: move7 2s linear forwards;
+}
+
+.ottegi:hover .p8 {
+    animation-direction: normal;
+    animation: move8 2s linear forwards;
+}
+
+.p1 {
+    animation-direction: normal;
+    animation: move1rev 2s linear forwards;
+}
+
+.p2 {
+    animation-direction: normal;
+    animation: move2rev 2s linear forwards;
+}
+
+.p3 {
+    animation-direction: normal;
+    animation: move3rev 2s linear forwards;
+}
+
+.p4 {
+    animation-direction: normal;
+    animation: move4rev 2s linear forwards;
+}
+
+.p5 {
+    animation-direction: normal;
+    animation: move5rev 2s linear forwards;
+}
+
+.p6 {
+    animation-direction: normal;
+    animation: move6rev 2s linear forwards;
+}
+
+.p7 {
+    animation-direction: normal;
+    animation: move7rev 2s linear forwards;
+}
+
+.p8 {
+    animation-direction: normal;
+    animation: move8rev 2s linear forwards;
+}
+
+@keyframes move1 {
+    0% {
+        transform: rotate(0deg);
+        order: 1;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 8;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: rotate(0deg);
+        order: 2;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 7;
+    }
+}
+
+@keyframes move3 {
+    0% {
+        transform: rotate(0deg);
+        order: 3;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 6;
+    }
+}
+
+@keyframes move4 {
+    0% {
+        transform: rotate(0deg);
+        order: 4;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 5;
+    }
+}
+
+@keyframes move5 {
+    0% {
+        transform: rotate(0deg);
+        order: 5;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 4;
+    }
+}
+
+@keyframes move6 {
+    0% {
+        transform: rotate(0deg);
+        order: 6;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 3;
+    }
+}
+
+@keyframes move7 {
+    0% {
+        transform: rotate(0deg);
+        order: 7;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 2;
+    }
+}
+
+@keyframes move8 {
+    0% {
+        transform: rotate(0deg);
+        order: 8;
+    }
+    100% {
+        transform: rotate(360deg);
+        order: 1;
+    }
+}
+
+@keyframes move1rev {
+    100% {
+        transform: rotate(0deg);
+        order: 1;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 8;
+    }
+}
+
+@keyframes move2rev {
+    100% {
+        transform: rotate(0deg);
+        order: 2;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 7;
+    }
+}
+
+@keyframes move3rev {
+    100% {
+        transform: rotate(0deg);
+        order: 3;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 6;
+    }
+}
+
+@keyframes move4rev {
+    100% {
+        transform: rotate(0deg);
+        order: 4;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 5;
+    }
+}
+
+@keyframes move5rev {
+    100% {
+        transform: rotate(0deg);
+        order: 5;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 4;
+    }
+}
+
+@keyframes move6rev {
+    100% {
+        transform: rotate(0deg);
+        order: 6;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 3;
+    }
+}
+
+@keyframes move7rev {
+    100% {
+        transform: rotate(0deg);
+        order: 7;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 2;
+    }
+}
+
+@keyframes move8rev {
+    100% {
+        transform: rotate(0deg);
+        order: 8;
+    }
+    0% {
+        transform: rotate(360deg);
+        order: 1;
+    }
+}
